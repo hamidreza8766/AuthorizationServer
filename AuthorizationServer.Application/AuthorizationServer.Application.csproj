@@ -12,7 +12,10 @@
     <Folder Include="VerticalSlices\Central\" />
     <Folder Include="VerticalSlices\ClientScopes\" />
     <Folder Include="VerticalSlices\ClientsUsers\" />
-    <Folder Include="VerticalSlices\Clients\" />
+    <Folder Include="VerticalSlices\Clients\Models\Commands\" />
+    <Folder Include="VerticalSlices\Clients\Models\Queries\" />
+    <Folder Include="VerticalSlices\Clients\Repositories\" />
+    <Folder Include="VerticalSlices\Clients\RequestHanlers\" />
     <Folder Include="VerticalSlices\RefreshTokens\" />
     <Folder Include="VerticalSlices\Scopes\" />
     <Folder Include="VerticalSlices\Users\" />
