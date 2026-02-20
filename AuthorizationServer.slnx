@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="AuthorizationServer.Application/AuthorizationServer.Application.csproj" />
+  <Project Path="AuthorizationServer.Domain/AuthorizationServer.Domain.csproj" />
+  <Project Path="AuthorizationServer.Infrastructure/AuthorizationServer.Infrastructure.csproj" />
   <Project Path="AuthorizationServer/AuthorizationServer.csproj" />
 </Solution>
