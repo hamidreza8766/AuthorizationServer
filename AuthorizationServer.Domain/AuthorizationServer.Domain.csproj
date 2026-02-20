@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="VerticalSlices\AccessTokens\Entities\BaseType\" />
+    <Folder Include="VerticalSlices\ClientScopes\Entities\BaseType\" />
+    <Folder Include="VerticalSlices\RefreshTokens\Entities\BaseType\" />
+    <Folder Include="VerticalSlices\Scopes\Entities\BaseType\" />
+  </ItemGroup>
+
 </Project>
