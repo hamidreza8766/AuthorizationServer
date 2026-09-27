@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="VerticalSlices\AccessTokens\Entities\BaseType\" />
-    <Folder Include="VerticalSlices\ClientScopes\Entities\BaseType\" />
-    <Folder Include="VerticalSlices\ClientsUsers\" />
-    <Folder Include="VerticalSlices\RefreshTokens\Entities\BaseType\" />
-    <Folder Include="VerticalSlices\Scopes\Entities\BaseType\" />
+    <Folder Include="Modules\AccessTokens\Entities\BaseType\" />
+    <Folder Include="Modules\ClientScopes\Entities\BaseType\" />
+    <Folder Include="Modules\ClientsUsers\" />
+    <Folder Include="Modules\RefreshTokens\Entities\BaseType\" />
+    <Folder Include="Modules\Scopes\Entities\BaseType\" />
   </ItemGroup>
 
 </Project>

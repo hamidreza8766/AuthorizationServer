@@ -1,6 +1,6 @@
-﻿using AuthorizationServer.Domain.VerticalSlices.Central.Entities.BaseType;
+﻿using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
 
-namespace AuthorizationServer.Domain.VerticalSlices.Clients.Entities.BaseType
+namespace AuthorizationServer.Domain.Modules.Clients.Entities.BaseType
 {
     public class ClientEntity : Entity
     {

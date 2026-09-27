@@ -1,4 +1,4 @@
-﻿namespace AuthorizationServer.Domain.VerticalSlices.Central.Entities.BaseType
+﻿namespace AuthorizationServer.Domain.Modules.Central.Entities.BaseType
 {
     public class Entity
     {

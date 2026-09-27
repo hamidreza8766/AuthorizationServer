@@ -7,15 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="VerticalSlices\AccessTokens\" />
-    <Folder Include="VerticalSlices\AuthorizationCodes\" />
-    <Folder Include="VerticalSlices\Central\" />
-    <Folder Include="VerticalSlices\ClientScopes\" />
-    <Folder Include="VerticalSlices\ClientsUsers\" />
-    <Folder Include="VerticalSlices\Clients\" />
-    <Folder Include="VerticalSlices\RefreshTokens\" />
-    <Folder Include="VerticalSlices\Scopes\" />
-    <Folder Include="VerticalSlices\Users\" />
+    <Folder Include="Modules\AccessTokens\" />
+    <Folder Include="Modules\AuthorizationCodes\" />
+    <Folder Include="Modules\Central\" />
+    <Folder Include="Modules\ClientScopes\" />
+    <Folder Include="Modules\ClientsUsers\" />
+    <Folder Include="Modules\Clients\" />
+    <Folder Include="Modules\RefreshTokens\" />
+    <Folder Include="Modules\Scopes\" />
+    <Folder Include="Modules\Users\" />
   </ItemGroup>
 
 </Project>
