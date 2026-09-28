@@ -4,6 +4,5 @@ namespace AuthorizationServer.Domain.Modules.Users.Entities.BaseType
 {
     public class UserEntity : Entity
     {
-
     }
 }

@@ -7,18 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Modules\AccessTokens\" />
     <Folder Include="Modules\AuthorizationCodes\" />
-    <Folder Include="Modules\Central\" />
     <Folder Include="Modules\ClientScopes\" />
     <Folder Include="Modules\ClientsUsers\" />
-    <Folder Include="Modules\Clients\Models\Commands\" />
     <Folder Include="Modules\Clients\Models\Queries\" />
-    <Folder Include="Modules\Clients\Repositories\" />
-    <Folder Include="Modules\Clients\RequestHanlers\" />
+    <Folder Include="Modules\Clients\Repositories\Commands\" />
+    <Folder Include="Modules\Clients\RequestHanlers\Commands\GenerateAccessToken\BaseType\" />
+    <Folder Include="Modules\Clients\RequestHanlers\Queries\" />
     <Folder Include="Modules\RefreshTokens\" />
     <Folder Include="Modules\Scopes\" />
     <Folder Include="Modules\Users\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthorizationServer.Domain\AuthorizationServer.Domain.csproj" />
   </ItemGroup>
 
 </Project>
