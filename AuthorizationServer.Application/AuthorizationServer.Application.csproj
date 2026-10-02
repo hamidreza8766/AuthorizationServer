@@ -10,9 +10,7 @@
     <Folder Include="Modules\AuthorizationCodes\" />
     <Folder Include="Modules\ClientScopes\" />
     <Folder Include="Modules\ClientsUsers\" />
-    <Folder Include="Modules\Clients\Models\Commands\GenerateAccessTokens\DerivedTypes\" />
     <Folder Include="Modules\Clients\Models\Queries\" />
-    <Folder Include="Modules\Clients\Models\Results\Commands\GenerateAccessTokens\DerivedTypes\" />
     <Folder Include="Modules\Clients\Repositories\Commands\" />
     <Folder Include="Modules\Clients\RequestHanlers\Commands\GenerateAccessToken\BaseType\" />
     <Folder Include="Modules\Clients\RequestHanlers\Queries\" />
