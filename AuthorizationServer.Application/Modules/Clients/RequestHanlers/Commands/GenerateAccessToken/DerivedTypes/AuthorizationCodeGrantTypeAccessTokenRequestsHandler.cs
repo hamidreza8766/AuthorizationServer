@@ -1,14 +1,30 @@
 ﻿using AuthorizationServer.Application.Modules.General.RequestHandlers;
-using AuthorizationServer.Application.Modules.Clients.Models.Commands.GenerateAccessTokens.DerivedTypes;
-using AuthorizationServer.Application.Modules.Clients.Models.Results.Commands.GenerateAccessTokens.DerivedTypes;
+using AuthorizationServer.Application.Modules.Clients.Models.Responses;
+using AuthorizationServer.Application.Modules.General.UnitOfWorks.BaseType;
+using AuthorizationServer.Application.Modules.Clients.Models.Requests.Authorizations.DerivedTypes;
 
 namespace AuthorizationServer.Application.Modules.Clients.RequestHanlers.Commands.GenerateAccessToken.DerivedTypes
 {
-    public class AuthorizationCodeGrantTypeAccessTokenRequestsHandler : IRequestHandler<AuthorizationCodeGrantTypeAccessTokenRequest, AuthorizationCodeGrantTypeAccessTokenRequestsResult>
+    public class AuthorizationCodeGrantTypeAccessTokenRequestsHandler : IRequestHandler<AuthorizationCodeGrantTypeAuthorizationRequest, AuthorizationCodeGrantTypeAuthorizationRequestsResponse>
     {
-        public Task<AuthorizationCodeGrantTypeAccessTokenRequestsResult> HandleAsync(AuthorizationCodeGrantTypeAccessTokenRequest requst, CancellationToken cancellationToken)
+        private readonly IUnitOfWork _UnitOfWork;
+        private readonly AuthorizationCodeGrantTypeAuthorizationRequestsResponse _Response;
+        public AuthorizationCodeGrantTypeAccessTokenRequestsHandler(
+            IUnitOfWork unitOfWork,
+            AuthorizationCodeGrantTypeAuthorizationRequestsResponse response)
         {
-            throw new NotImplementedException();
+            if (response == null)
+                throw new ArgumentNullException(nameof(response));
+            if (unitOfWork == null)
+                throw new ArgumentNullException(nameof(unitOfWork));
+            _Response = response;
+            _UnitOfWork = unitOfWork;
+        }
+        public async Task<AuthorizationCodeGrantTypeAuthorizationRequestsResponse> HandleAsync(AuthorizationCodeGrantTypeAuthorizationRequest requst, CancellationToken cancellationToken)
+        {
+            {
+
+            }
         }
     }
 }
