@@ -1,6 +1,6 @@
 ﻿using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
 
-namespace AuthorizationServer.Domain.Modules.AuthorizationCodes.Entities.BaseType
+namespace AuthorizationServer.Domain.Modules.Clients.Entities.Dependents
 {
     public class AuthorizationCodeEntity : Entity
     {

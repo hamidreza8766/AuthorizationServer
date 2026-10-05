@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Modules\AccessTokens\Entities\BaseType\" />
-    <Folder Include="Modules\RefreshTokens\Entities\BaseType\" />
-  </ItemGroup>
-
 </Project>
