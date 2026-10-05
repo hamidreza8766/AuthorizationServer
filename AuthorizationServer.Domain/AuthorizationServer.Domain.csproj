@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Modules\AccessTokens\Entities\BaseType\" />
-    <Folder Include="Modules\ClientsUsers\" />
     <Folder Include="Modules\RefreshTokens\Entities\BaseType\" />
   </ItemGroup>
 

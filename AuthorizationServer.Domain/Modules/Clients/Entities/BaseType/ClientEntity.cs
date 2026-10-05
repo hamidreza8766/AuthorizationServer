@@ -1,4 +1,5 @@
 ﻿using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
+using AuthorizationServer.Application.Modules.Clients.Entities.Dependents;
 
 namespace AuthorizationServer.Domain.Modules.Clients.Entities.BaseType
 {
@@ -9,5 +10,6 @@ namespace AuthorizationServer.Domain.Modules.Clients.Entities.BaseType
         public string LogoURL { get; set; }
         public string HomePageURL { get; set; }
         public bool IsConfidential { get; set; }
+        public List<ClientScopeEntity> ClientScopes { get; set; }
     }
 }
