@@ -6,9 +6,8 @@ namespace AuthorizationServer.Domain.Modules.Clients.Entities.BaseType
     {
         public string Name { get; set; }
         public bool IsActive { get; set; }
-        public string ClientID { get; set; }
-        public string GrantTypes { get; set; }
-        public string ClientSecret { get; set; }
-        public bool IsConfindential { get; set; }
+        public string LogoURL { get; set; }
+        public string HomePageURL { get; set; }
+        public bool IsConfidential { get; set; }
     }
 }
