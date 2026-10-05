@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Modules\Clients\Entities\Dependents\AuthorizationCodes\Dependents\" />
+    <Folder Include="Modules\Clients\Entities\Dependents\RefreshTokens\Dependents\" />
+  </ItemGroup>
+
 </Project>
