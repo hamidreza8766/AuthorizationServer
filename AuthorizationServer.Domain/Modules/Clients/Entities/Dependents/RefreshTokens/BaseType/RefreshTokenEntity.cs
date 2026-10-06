@@ -1,13 +1,8 @@
-﻿using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
+﻿using AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.OauthTokens.BaseType;
 
 namespace AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.RefreshTokens.BaseType
 {
-    public class RefreshTokenEntity : Entity
+    public class RefreshTokenEntity : TokenEntity
     {
-        public long UserID { get; set; }
-        public long ClientID { get; set; }
-        public string HashedValue { get; set; }
-        public DateTime ExpiresAt { get; set; }
-        public DateTime? RevokedAt { get; set; }
     }
 }
