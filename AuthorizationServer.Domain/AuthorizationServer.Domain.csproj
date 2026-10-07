@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Modules\Clients\Entities\Dependents\AuthorizationCodes\Dependents\" />
-    <Folder Include="Modules\Clients\Entities\Dependents\RefreshTokens\Dependents\" />
+    <Folder Include="Modules\Clients\Entities\Dependents\OauthTokens\DerivedTypes\RefreshTokens\Dependents\" />
   </ItemGroup>
 
 </Project>

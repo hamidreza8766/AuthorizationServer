@@ -35,6 +35,7 @@ namespace AuthorizationServer.Application.Modules.Clients.RequestHanlers.Command
                     return ClientErrorsCatalog.ClientDidNotFoundResult.CreateNew<AuthorizationCodeGrantTypeAuthorizationRequestsResponse>();
                 if (!string.Equals(requst.response_type, "code", StringComparison.OrdinalIgnoreCase))
                     return ResponseTypeErrorsCatalog.InvalidResponseTypeResult.CreateNew<AuthorizationCodeGrantTypeAuthorizationRequestsResponse>();
+                
                 return _Response;
             }
         }

@@ -11,6 +11,7 @@
     <Folder Include="Modules\Clients\Repositories\Commands\" />
     <Folder Include="Modules\Clients\RequestHanlers\Commands\GenerateAccessToken\BaseType\" />
     <Folder Include="Modules\Clients\RequestHanlers\Queries\" />
+    <Folder Include="Modules\Clients\Tools\Generators\" />
     <Folder Include="Modules\Scopes\Repositories\" />
     <Folder Include="Modules\Users\" />
   </ItemGroup>

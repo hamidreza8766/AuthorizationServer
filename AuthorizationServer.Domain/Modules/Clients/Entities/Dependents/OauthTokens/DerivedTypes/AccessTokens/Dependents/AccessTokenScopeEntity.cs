@@ -1,8 +1,8 @@
 ﻿using AuthorizationServer.Domain.Modules.Scopes.Entities.BaseType;
 using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
-using AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.AccessTokens.BaseType;
+using AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.OauthTokens.DerivedTypes.AccessTokens.BaseType;
 
-namespace AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.AccessTokens.Dependents
+namespace AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.OauthTokens.DerivedTypes.AccessTokens.Dependents
 {
     public class AccessTokenScopeEntity : Entity
     {
