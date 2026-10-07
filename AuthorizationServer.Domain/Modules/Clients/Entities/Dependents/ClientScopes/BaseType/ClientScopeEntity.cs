@@ -2,7 +2,7 @@
 using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
 using AuthorizationServer.Domain.Modules.Clients.Entities.BaseType;
 
-namespace AuthorizationServer.Application.Modules.Clients.Entities.Dependents
+namespace AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.ClientScopes.BaseType
 {
     public class ClientScopeEntity : Entity
     {

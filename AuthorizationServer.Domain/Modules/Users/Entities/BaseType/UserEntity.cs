@@ -1,5 +1,7 @@
 ﻿using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
-using AuthorizationServer.Domain.Modules.Users.Entities.Dependents;
+using AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.ClientUsers.BaseType;
+using AuthorizationServer.Domain.Modules.Users.Entities.Dependents.Passwords.BaseType;
+using AuthorizationServer.Domain.Modules.Users.Entities.Dependents.UserClaims.BaseType;
 
 namespace AuthorizationServer.Domain.Modules.Users.Entities.BaseType
 {
@@ -12,5 +14,6 @@ namespace AuthorizationServer.Domain.Modules.Users.Entities.BaseType
         public string PhoneNumber { get; set; }
         public List<UserClaimEntity> Claims { get; set; }
         public List<PasswordEntity> Passwords { get; set; }
+        public List<ClientUserEntity> ClientUsers { get; set; }
     }
 }

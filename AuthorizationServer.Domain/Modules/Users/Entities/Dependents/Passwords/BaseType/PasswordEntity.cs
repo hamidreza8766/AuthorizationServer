@@ -2,7 +2,7 @@
 using AuthorizationServer.Domain.Modules.Users.Entities.BaseType;
 using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
 
-namespace AuthorizationServer.Domain.Modules.Users.Entities.Dependents
+namespace AuthorizationServer.Domain.Modules.Users.Entities.Dependents.Passwords.BaseType
 {
     public class PasswordEntity : Entity
     {

@@ -4,5 +4,6 @@ namespace AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.Refresh
 {
     public class RefreshTokenEntity : TokenEntity
     {
+        public long ParentTokenID { get; set; }
     }
 }

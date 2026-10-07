@@ -1,7 +1,7 @@
 ﻿using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
 using AuthorizationServer.Domain.Modules.Users.Entities.BaseType;
 
-namespace AuthorizationServer.Domain.Modules.Users.Entities.Dependents
+namespace AuthorizationServer.Domain.Modules.Users.Entities.Dependents.UserClaims.BaseType
 {
     public class UserClaimEntity : Entity
     {
