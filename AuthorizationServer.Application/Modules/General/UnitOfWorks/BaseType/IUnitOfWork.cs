@@ -7,5 +7,6 @@ namespace AuthorizationServer.Application.Modules.General.UnitOfWorks.BaseType
     {
         ICommandsHandlerClientsRepository GetCommandsHandlerClientsRepository();
         IEntitiesRetrieverClientsRepository GetEntitiesRetrieverClientsRepository();
+        ICommandsHandlerAuthorizationCodesRepository GetCommandsHandlerAuthorizationCodesRepository();
     }
 }

@@ -10,5 +10,7 @@ namespace AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.Authori
         public long ClientID { get; set; }
         public UserEntity User { get; set; }
         public ClientEntity Client { get; set; }
+        public string CodeChallenge { get; set; }
+        public string CodeChallengeMethod { get; set; }
     }
 }

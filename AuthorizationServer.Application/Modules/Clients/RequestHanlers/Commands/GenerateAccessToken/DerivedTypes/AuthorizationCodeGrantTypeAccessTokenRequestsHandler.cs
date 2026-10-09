@@ -37,10 +37,10 @@ namespace AuthorizationServer.Application.Modules.Clients.RequestHanlers.Command
         }
         public async Task<AuthorizationCodeGrantTypeAuthorizationRequestsResponse> HandleAsync(AuthorizationCodeGrantTypeAuthorizationRequest request, CancellationToken cancellationToken)
         {
+            long? userId;
             string userToken;
             ClientEntity client;
             string authorizationCode;
-            long? userId;
             AuthorizationCodeEntity entity;
             IEntitiesRetrieverClientsRepository entitiesRetrieverClientsRepository;
             {
@@ -63,7 +63,7 @@ namespace AuthorizationServer.Application.Modules.Clients.RequestHanlers.Command
                     UserID = userId.Value,
                     RegistrationDateTime = DateTime.UtcNow
                 };
-
+                _UnitOfWork.GetCommandsHandlerAuthorizationCodesRepository().Save(entity);
                 return _Response;
             }
         }
