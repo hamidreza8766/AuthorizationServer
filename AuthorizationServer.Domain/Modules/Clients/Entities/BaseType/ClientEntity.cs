@@ -10,6 +10,7 @@ namespace AuthorizationServer.Domain.Modules.Clients.Entities.BaseType
         public string Name { get; set; }
         public bool IsActive { get; set; }
         public string LogoURL { get; set; }
+        public string ClientID { get; set; }
         public string HomePageURL { get; set; }
         public bool IsConfidential { get; set; }
         public List<ClientUserEntity> ClientUsers { get; set; }

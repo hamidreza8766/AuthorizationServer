@@ -1,4 +1,5 @@
 ﻿using AuthorizationServer.Application.Modules.Clients.Tools.Generators.AuthorizationCodes.Abstraction;
+using System.Security.Cryptography;
 
 namespace AuthorizationServer.Application.Modules.Clients.Tools.Generators.AuthorizationCodes.Implementations
 {
@@ -6,7 +7,7 @@ namespace AuthorizationServer.Application.Modules.Clients.Tools.Generators.Autho
     {
         public string Generate(long? userId = null, long? clientId = null)
         {
-            return Guid.NewGuid().ToString();
+            return RandomNumberGenerator.GetHexString(64);
         }
     }
 }

@@ -5,6 +5,6 @@ namespace AuthorizationServer.Application.Modules.General.RequestHandlers
 {
     public interface IRequestHandler<Requst, Response> where Requst : IRequest<Response> where Response : BaseResult
     {
-        Task<Response> HandleAsync(Requst requst, CancellationToken cancellationToken);
+        Task<Response> HandleAsync(Requst request, CancellationToken cancellationToken);
     }
 }

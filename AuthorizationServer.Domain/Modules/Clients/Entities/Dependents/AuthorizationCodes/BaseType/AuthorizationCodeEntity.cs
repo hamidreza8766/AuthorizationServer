@@ -1,6 +1,6 @@
-﻿using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
+﻿using AuthorizationServer.Domain.Modules.Users.Entities.BaseType;
+using AuthorizationServer.Domain.Modules.Central.Entities.BaseType;
 using AuthorizationServer.Domain.Modules.Clients.Entities.BaseType;
-using AuthorizationServer.Domain.Modules.Users.Entities.BaseType;
 
 namespace AuthorizationServer.Domain.Modules.Clients.Entities.Dependents.AuthorizationCodes.BaseType
 {
