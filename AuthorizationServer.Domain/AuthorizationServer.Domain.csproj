@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Modules\Clients\Entities\Dependents\AuthorizationCodes\Dependents\" />
+    <Compile Remove="Modules\Clients\Entities\Dependents\AuthorizationCodes\Dependents\**" />
+    <EmbeddedResource Remove="Modules\Clients\Entities\Dependents\AuthorizationCodes\Dependents\**" />
+    <None Remove="Modules\Clients\Entities\Dependents\AuthorizationCodes\Dependents\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Modules\Clients\Entities\Dependents\OauthTokens\DerivedTypes\RefreshTokens\Dependents\" />
   </ItemGroup>
 
