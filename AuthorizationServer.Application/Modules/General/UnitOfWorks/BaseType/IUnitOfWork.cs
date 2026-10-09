@@ -6,6 +6,7 @@ namespace AuthorizationServer.Application.Modules.General.UnitOfWorks.BaseType
     public interface IUnitOfWork
     {
         ICommandsHandlerClientsRepository GetCommandsHandlerClientsRepository();
+        IExistenceCheckerClientsRepository GetExistenceCheckerClientsRepository();
         IEntitiesRetrieverClientsRepository GetEntitiesRetrieverClientsRepository();
         ICommandsHandlerAuthorizationCodesRepository GetCommandsHandlerAuthorizationCodesRepository();
     }
